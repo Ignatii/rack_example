@@ -1,0 +1,24 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (11.0.1)
+    daemons (1.3.1)
+    eventmachine (1.2.7)
+    multi_json (1.14.1)
+    rack (1.5.5)
+    thin (1.7.2)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (>= 1, < 3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  multi_json
+  rack
+  thin
+
+BUNDLED WITH
+   1.17.2
